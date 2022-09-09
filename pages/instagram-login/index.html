@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Instagram Login Page</title>
 </head>
 <body>
-    <div>
-        <img src="./images/celular.png" alt="mobile phone">
+    <div class="container-images">
+        <img class="img-celular" src="./images/celular.png" alt="mobile phone">
+        <img class="imagem-celular" src="./images/insta1.png" alt="mobile phone">
+        <img class="imagem-celular" src="./images/insta2.png" alt="mobile phone" id="troca-imagem">
     </div>
-    <div>
-        <div>
-            <img src="./images/insta-logo.png" alt="">
+    <div class="container-itens">
+        <div class="container-form">
+            <img src="./images/insta-logo.png" alt="" class="insta-logo">
             <input type="text" placeholder="Telefone, nome de usuário ou email">
             <input type="text" placeholder="Senha">
             <button type="button">Enter</button>
-            <a href="">Entrar com o Facebook</a>
-            <a href="">Esqueceu a senha?</a>
+            <a class="login-facebook" href="">Entrar com o Facebook</a>
+            <a class="esqueceu-senha" href="">Esqueceu a senha?</a>
         </div>
-        <div>
-            <p>Não tem uma conta?</p>
+        <div class="container-cadastro">
+            <p class="paragrafo-conta">Não tem uma conta?</p>
+            <a href="#" class="link-cadastro">Cadastrar-se</a>
         </div>
-        <p>Obtenha o aplicativo</p>
-        <div>
-            <img src="./images/ios.png" alt="Iphone Picture" />
-            <img src="./images/google.png" alt="Google Logo">
+        <p class="paragrafo-app">Obtenha o aplicativo</p>
+        <div class="container-app">
+            <img src="./images/ios.png" alt="Iphone Picture" class="logo-app" />
+            <img src="./images/google.png" alt="Google Logo" class="logo-app">
         </div>
     </div>
 </body>

@@ -11,12 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-
+  background-color: #f1f3f5;
 }
 
 .container {
-  border: 1px solid #000;
   padding: 100px;
+  border: 1px solid #212529;
 }
 
 h1, p{

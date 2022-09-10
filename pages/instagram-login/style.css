@@ -30,6 +30,7 @@ body {
     position: absolute;
     left: 152px;
     bottom: 71px;
+    transition: opacity 1s ease-in-out;
 }
 
 .container-itens {

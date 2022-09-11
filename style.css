@@ -25,4 +25,5 @@ h1, p{
 
 a {
   text-decoration: none;
+  display: block;
 }

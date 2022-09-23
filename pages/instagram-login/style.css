@@ -119,3 +119,9 @@ button {
 .logo-app {
     width: 150px;
 }
+
+@media (max-width: 850px) {
+    .container-images {
+        display: none;
+    }
+}

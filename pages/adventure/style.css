@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 1.6rem;
-    text-decoration: none;
+    /* text-decoration: none; */
     list-style: none;
 }
 
@@ -15,6 +15,37 @@ html {
 
 a {
     text-decoration: none;
+}
+
+.active {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+.nav-links li a {
+    color: inherit;
 }
 
 header {

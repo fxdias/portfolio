@@ -236,6 +236,20 @@ header {
     margin: 30px auto;
 }
 
+footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #484872;
+    text-align: center;
+}
+
+footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+}
+
 @media (max-width:800px) {
     .menu-btn {
         display: block;
@@ -268,4 +282,30 @@ header {
     .nav-links li {
         margin: 30px auto;
     }
+
+    .events__row {
+        flex-direction: column;
+    }
+
+    .explore-content h1 {
+        font-size: 5rem;
+    }
+
+    .tours {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .content-col {
+        margin-bottom: 20px;
+    }
+}
+
+img {
+    transition: transform .3s ease;
+}
+
+img:hover {
+    transform: scale(1.1)
 }

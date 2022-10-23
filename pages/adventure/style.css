@@ -99,6 +99,60 @@ header {
     display: none;
 }
 
+.events {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.events__title h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #49497e;
+}
+
+.events__image {
+    max-width: 960px;
+    width: 100%;
+    padding: 10px;
+}
+
+.events__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.events__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events .events__col {
+    margin-top: 50px;
+}
+
+.events__header {
+    font-size: 2rem;
+    color: #484872;
+    margin: 20px auto;
+}
+
+.events__para {
+    color: #7c7c7c;
+    padding: 0 40px;
+}
+
+.events__button {
+    margin-top: 16px;
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
 @media (max-width:800px) {
     .menu-btn {
         display: block;
